@@ -1,0 +1,10 @@
+@import 'header.css';
+@font-face {
+    font-family: Montserrat;
+    src: url('/assets/fonts/Montserrat-Regular.ttf');
+  }
+
+  body {
+    font-family: 'Montserrat';
+    margin: unset;
+  }
