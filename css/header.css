@@ -2,6 +2,11 @@
     font-family: Montserrat;
     src: url('/assets/fonts/Montserrat-Regular.ttf');
 }
+
+@font-face {
+  font-family: MontserratBold;
+  src: url('/assets/fonts/Montserrat-Bold.ttf');
+}
 /*------------------ Header ------------------*/
 nav {
     position: fixed;
@@ -10,7 +15,7 @@ nav {
     display: flex;
     align-items: center;
     min-height: 110px;
-    background: #1663be;
+    background: #333;
     font-family: Montserrat;
     border-bottom: 1px solid #fff;
     z-index: 2;
@@ -25,7 +30,7 @@ nav {
     height: 100vh;
     top: 0;
     padding-top: 30px;
-    background-color: #1663be;
+    background-color: #333;
     display: flex;
     flex-direction: column;
     transform: translateX(100%);
@@ -35,7 +40,7 @@ nav {
   }
 
   .nav-links a {
-    color: rgb(226, 226, 226);
+    color: #fff;
     text-decoration: none;
     letter-spacing: 3px;
     font-weight: bold;
@@ -77,12 +82,23 @@ nav {
   .logo {
     z-index: 1000;
     margin-left: 35px;
+    color: #fff;
   }
 
-  .logo img {
+  .logo a {
+    color: #fff;
+    font-size: 20px;
+    font-family: MontserratBold;
+  }
+
+  .logo-wild {
+    color: #04f340;
+  }
+
+  /* .logo img {
     max-width: 166px;
     max-height: 66px;
-  }
+  } */
   
   /* Laptops & desktops */
   @media screen and (min-width: 1024px) {
