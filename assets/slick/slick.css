@@ -89,6 +89,7 @@
 .slick-slide img
 {
     display: block;
+    height: 100vh;
 }
 .slick-slide.slick-loading img
 {
