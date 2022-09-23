@@ -1,0 +1,73 @@
+.trekking-heading {
+    text-align: center;
+}
+
+@media screen and (min-width: 800px) {
+    .trekking-heading {
+        text-align: left;
+        margin-left: 45px;
+    }
+}
+
+.trekking-section {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.mountain-card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.mountain-card {
+    display: flex;
+    flex-direction: column;
+    min-width: 250px;
+    max-width: 350px;
+}
+
+.mountain-img {
+    overflow: hidden;
+}
+
+.mountain-img > img {
+    border-radius: 5px 5px 0 0;
+    max-width: 350px;
+}
+
+.mountain-body {
+    padding: 15px 15px 0;
+    background-color: #dfdbdb;
+    min-height: 128px;
+}
+
+.mountain-body-title{
+    margin: 0 0 5px;
+}
+
+.mountain-body-description {
+    margin: 0 0 10px;
+}
+
+.mountain-body-description > span {
+    display: block;
+}
+
+.book-cta {
+    background-color: var(--wild-green);
+    text-align: center;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 0 0 5px 5px;
+    transition: background-color 0.1s ease-in;
+}
+
+.book-cta:hover {
+    background-color: #05ce37;
+}
