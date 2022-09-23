@@ -30,12 +30,28 @@
         </nav>
         </header>
         <main>
-            <!-- <h1>Welcome to My Website</h1> -->
-            <div class="banner-slick">
-              <div><img src="/assets/img/le-pouce.png" alt="le pouce"></div>
-              <div><img src="/assets/img/le-morne.jpg" alt="le morne"></div>
-              <div><img src="/assets/img/corp-de-garde.jpg" alt="corp de garde"></div>
+          <div class="banner-container">
+            <div class="banner-main-text">
+              <h1 class="banner-main-title">ADVENTURE IS WORTHWHILE</h1>
+              <p class="banner-main-description">Discover New Places With Us, Adventure Awaits</p>
+              <div class="banner-main-cta"><a href="#discover">Discover More</a></div>
             </div>
+            <div class="banner-slick">
+              <picture>
+                <source srcset="/assets/img/le-pouce-mobile.jpg" media="(max-width:801px)">
+                <img src="/assets/img/le-pouce.png" alt="le pouce">
+              </picture>
+              <picture>
+                <source srcset="/assets/img/le-morne-mobile.jpg" media="(max-width:801px)">
+                <img src="/assets/img/le-morne.jpg" alt="le morne">
+              </picture>
+              <picture>
+                <source srcset="/assets/img/corp-de-garde-mobile.jpg" media="(max-width:801px)">
+                <img src="/assets/img/corp-de-garde.jpg" alt="corp de garde">
+              </picture>
+            </div>
+            
+          </div>
         </main>
     <script>
         function navSlide() {

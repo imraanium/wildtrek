@@ -1,12 +1,17 @@
 @font-face {
     font-family: Montserrat;
-    src: url('/assets/fonts/Montserrat-Regular.ttf');
+    font-display: swap;
+    font-weight: 300;
+    src: url('/assets/fonts/Montserrat-Regular.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: MontserratBold;
-  src: url('/assets/fonts/Montserrat-Bold.ttf');
+  font-family: Montserrat;
+  font-display: swap;
+  font-weight: 700;
+  src: url('/assets/fonts/Montserrat-Bold.ttf') format('truetype');
 }
+
 /*------------------ Header ------------------*/
 nav {
     position: fixed;
@@ -14,7 +19,7 @@ nav {
     width: 100%;
     display: flex;
     align-items: center;
-    min-height: 110px;
+    min-height: 76px;
     background: #333;
     font-family: Montserrat;
     border-bottom: 1px solid #fff;
@@ -88,11 +93,12 @@ nav {
   .logo a {
     color: #fff;
     font-size: 20px;
-    font-family: MontserratBold;
+    font-family: Montserrat;
+    font-weight: 700;
   }
 
   .logo-wild {
-    color: #04f340;
+    color: var(--wild-green);
   }
 
   /* .logo img {
@@ -127,10 +133,11 @@ nav {
       text-align: center;
       line-height: 26px;
       cursor: pointer;
+      transition: box-shadow 0.2s ease-in;
     }
 
     .nav-links li:hover {
-        box-shadow: 0px 0px 35px #0ff;
+        box-shadow: 0px 0px 25px #0ff;
     }
 
     .nav-links li:hover a {

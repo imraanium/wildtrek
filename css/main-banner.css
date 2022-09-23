@@ -1,7 +1,48 @@
-/* .banner-slick {
-
-} */
+.banner-container {
+    position: relative;
+}
 
 .banner-slick img {
     width: 100% ;
+}
+
+.banner-main-text {
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    width: 100%;
+    bottom: 30%;
+    z-index: 1;
+}
+
+.banner-main-description {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.banner-main-cta {
+    background-color: var(--wild-green);
+    padding: 10px;
+    font-weight: 700;
+    border-radius: 2px;
+    width: fit-content;
+    margin: 0 auto;
+    transition: box-shadow 0.2s ease-in;
+}
+
+.banner-main-cta a {
+    color: #fff;
+}
+
+.banner-main-cta:hover {
+    box-shadow: 0px 0px 35px #0ff;
+}
+
+.slick-dots li button:before {
+    color: #fff;
+    font-size: 16px;
+}
+
+.slick-dots li.slick-active button:before {
+    color: var(--wild-green);
 }

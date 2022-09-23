@@ -5,13 +5,18 @@
     src: url('/assets/fonts/Montserrat-Regular.ttf');
   }
 
+  :root {
+    --wild-green: #04f340;
+  }
+
   body {
     font-family: 'Montserrat';
+    font-weight: 300;
     margin: unset;
   }
 
   main {
-    margin-top: 111px;
+    margin-top: 76px;
   }
 
   a {
