@@ -1,6 +1,7 @@
 @import 'header.css';
 @import 'main-banner.css';
 @import 'trekking.css';
+@import 'footer.css';
 @font-face {
     font-family: Montserrat;
     src: url('/assets/fonts/Montserrat-Regular.ttf');
