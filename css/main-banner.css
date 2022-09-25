@@ -19,6 +19,22 @@
     bottom: 30%;
     z-index: 1;
 }
+
+.banner-main-text-about {
+    position: absolute;
+    text-align: center;
+    margin: 0px auto;
+    color: #fff;
+    width: 100%;
+    max-width: 500px;
+    bottom: 30%;
+    z-index: 1;
+    left:0;
+    right:0;
+    padding: 50px;
+    background-color: rgba(51, 51, 51, 0.575);
+}
+
 .banner-main-title{
     font-size: 48px;
 }
